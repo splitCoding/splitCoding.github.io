@@ -3,7 +3,7 @@ title: "insufficient permission for adding an object to repository database 오�
 excerpt: "insufficient permission for adding an object to repository database 오류 트러블 슈팅"
 date: 2023-08-07
 categories: [git]
-tags: [ git, git submodule]
+tags: [git]
 toc: true
 toc_sticky: true
 ---
