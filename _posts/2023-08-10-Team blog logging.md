@@ -110,7 +110,7 @@ Logback은 log4j를 기반으로 SLF4J 인터페이스의 구현하여 만든 �
         <charset>utf8</charset>
       </encoder>
       <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-        <fileNamePattern>application.%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+        <fileNamePattern>/etc/log/app/application.%d{yyyy-MM-dd}-%i.log</fileNamePattern>
         <maxFileSize>100MB</maxFileSize>
         <maxHistory>15</maxHistory>
         <totalSizeCap>2GB</totalSizeCap>
@@ -132,7 +132,7 @@ Logback은 log4j를 기반으로 SLF4J 인터페이스의 구현하여 만든 �
         <onMismatch>DENY</onMismatch>
       </filter>
       <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-        <fileNamePattern>warn.%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+        <fileNamePattern>/etc/log/warn/warn.%d{yyyy-MM-dd}-%i.log</fileNamePattern>
         <maxFileSize>100MB</maxFileSize>
         <maxHistory>15</maxHistory>
         <totalSizeCap>1GB</totalSizeCap>
@@ -154,7 +154,7 @@ Logback은 log4j를 기반으로 SLF4J 인터페이스의 구현하여 만든 �
         <onMismatch>DENY</onMismatch>
       </filter>
       <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-        <fileNamePattern>error.%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+        <fileNamePattern>/etc/log/error/error.%d{yyyy-MM-dd}-%i.log</fileNamePattern>
         <maxFileSize>100MB</maxFileSize>
         <maxHistory>15</maxHistory>
         <totalSizeCap>1GB</totalSizeCap>
